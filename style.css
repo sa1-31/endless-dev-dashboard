@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0d1117;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background: #161b22;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  background: #161b22;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #238636;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+}
