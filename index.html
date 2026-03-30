@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Endless Dev Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="endless.png" alt="logo">
+    <h1>Endless Dashboard</h1>
+  </div>
+</header>
+
+<main>
+  <section class="card">
+    <h2>Developer Score</h2>
+    <p id="score">0</p>
+  </section>
+
+  <section class="card">
+    <h2>Total Transactions</h2>
+    <p id="tx">0</p>
+  </section>
+
+  <section class="card">
+    <h2>Active Days</h2>
+    <p id="days">0</p>
+  </section>
+
+  <section class="card">
+    <h2>Streak</h2>
+    <p id="streak">0</p>
+  </section>
+
+  <button onclick="generate()">Generate Stats</button>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
